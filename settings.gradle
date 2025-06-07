@@ -1,0 +1,3 @@
+rootProject.name = 'mfit-personal-8-0'
+
+include 'lib'
