@@ -1,0 +1,12 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.IBinder;
+import android.os.IInterface;
+
+/* loaded from: classes.dex */
+public abstract class gw extends ej implements hw {
+    public static hw L5(IBinder iBinder) {
+        IInterface iInterfaceQueryLocalInterface = iBinder.queryLocalInterface("com.google.android.gms.ads.internal.formats.client.IShouldDelayBannerRenderingListener");
+        return iInterfaceQueryLocalInterface instanceof hw ? (hw) iInterfaceQueryLocalInterface : new fw(iBinder);
+    }
+}
